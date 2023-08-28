@@ -5,6 +5,7 @@
     "dev": "turbo run dev",
     "lint": "concurrently --kill-others \"pnpm run lint:*\"",
     "lint:turbo": "turbo run lint",
+    "lint:syncpack": "syncpack list-mismatches",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
@@ -12,8 +13,27 @@
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
     "@project/tsconfig": "workspace:*",
+    "syncpack": "^11.2.1",
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.6.10",
-  "name": "pnpm-workspace-knowhow-sample"
+  "name": "pnpm-workspace-knowhow-sample",
+  "syncpack": {
+    "versionGroups": [
+      {
+        "packages": [
+          "@project/**",
+          "pnpm-workspace-knowhow-sample"
+        ],
+        "dependencies": [
+          "@project/**"
+        ],
+        "dependencyTypes": [
+          "prod",
+          "dev"
+        ],
+        "pinVersion": "workspace:*"
+      }
+    ]
+  }
 }
