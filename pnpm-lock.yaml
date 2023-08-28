@@ -52,13 +52,13 @@ importers:
         specifier: workspace:*
         version: link:../../packages/tsconfig
       '@types/node':
-        specifier: ^17.0.12
-        version: 17.0.45
+        specifier: ^20.5.2
+        version: 20.5.2
       '@types/react':
-        specifier: ^18.0.22
+        specifier: ^18.2.0
         version: 18.2.5
       '@types/react-dom':
-        specifier: ^18.0.7
+        specifier: ^18.2.0
         version: 18.2.3
       typescript:
         specifier: ^4.5.3
@@ -106,7 +106,7 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
       typescript:
-        specifier: ^4.5.2
+        specifier: ^4.5.3
         version: 4.9.5
 
 packages:
@@ -2060,10 +2060,6 @@ packages:
 
   /@types/minimatch@5.1.2:
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
-    dev: true
-
-  /@types/node@17.0.45:
-    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
     dev: true
 
   /@types/node@20.5.2:
