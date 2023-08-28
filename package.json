@@ -9,7 +9,7 @@
   "devDependencies": {
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
-    "tsconfig": "workspace:*",
+    "@project/tsconfig": "workspace:*",
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.6.10",

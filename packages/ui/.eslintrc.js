@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["custom/react-internal"],
+  extends: ["@project/custom/react-internal"],
 };
