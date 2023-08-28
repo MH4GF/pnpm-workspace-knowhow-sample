@@ -9,6 +9,7 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
@@ -20,6 +21,7 @@
     "@types/react-dom": "^18.2.0",
     "react": "^18.2.0",
     "@project/tsconfig": "workspace:*",
+    "prettier": "^3.0.2",
     "typescript": "^4.5.3"
   },
   "dependencies": {

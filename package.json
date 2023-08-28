@@ -6,12 +6,11 @@
     "lint": "concurrently --kill-others \"pnpm run lint:*\"",
     "lint:turbo": "turbo run lint",
     "lint:syncpack": "syncpack list-mismatches",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "turbo run format"
   },
   "devDependencies": {
     "concurrently": "^8.2.1",
     "eslint": "^8.47.0",
-    "prettier": "^3.0.2",
     "@project/tsconfig": "workspace:*",
     "syncpack": "^11.2.1",
     "turbo": "latest"
