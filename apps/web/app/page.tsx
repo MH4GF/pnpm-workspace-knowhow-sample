@@ -1,4 +1,4 @@
-import { Button, Header } from "@project/ui";
+import { Button, Header } from '@project/ui'
 
 export default function Page(): JSX.Element {
   return (
@@ -6,5 +6,5 @@ export default function Page(): JSX.Element {
       <Header text="Web" />
       <Button />
     </>
-  );
+  )
 }

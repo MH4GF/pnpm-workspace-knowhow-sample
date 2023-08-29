@@ -42,6 +42,9 @@ importers:
       '@next/eslint-plugin-next':
         specifier: ^13.4.19
         version: 13.4.19
+      '@project/configs':
+        specifier: workspace:*
+        version: link:../../packages/configs
       '@project/eslint-config-custom':
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
@@ -90,6 +93,9 @@ importers:
       '@kuma-ui/next-plugin':
         specifier: ^1.1.7
         version: 1.1.7(@babel/core@7.22.10)(@types/react@18.2.5)(next@13.4.19)(react@18.2.0)(webpack@5.88.2)
+      '@project/configs':
+        specifier: workspace:*
+        version: link:../configs
       '@project/eslint-config-custom':
         specifier: workspace:*
         version: link:../eslint-config-custom
