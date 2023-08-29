@@ -1,0 +1,13 @@
+{
+  "name": "@project/configs",
+  "version": "0.0.0",
+  "exports": {
+    "./prettier": "./prettier/index.cjs"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.0.2"
+  }
+}
