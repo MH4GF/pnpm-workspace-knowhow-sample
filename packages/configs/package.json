@@ -2,7 +2,8 @@
   "name": "@project/configs",
   "version": "0.0.0",
   "exports": {
-    "./prettier": "./prettier/index.cjs"
+    "./prettier": "./prettier/index.cjs",
+    "./tsconfig/*": "./tsconfig/*"
   },
   "scripts": {
     "format": "prettier --write ."

@@ -8,9 +8,6 @@ importers:
 
   .:
     devDependencies:
-      '@project/tsconfig':
-        specifier: workspace:*
-        version: link:packages/tsconfig
       concurrently:
         specifier: ^8.2.1
         version: 8.2.1
@@ -48,9 +45,6 @@ importers:
       '@project/eslint-config-custom':
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
-      '@project/tsconfig':
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
       '@types/node':
         specifier: ^20.5.2
         version: 20.5.2
@@ -82,8 +76,6 @@ importers:
         specifier: ^1.10.12
         version: 1.10.12(eslint@8.47.0)
 
-  packages/tsconfig: {}
-
   packages/ui:
     dependencies:
       '@kuma-ui/core':
@@ -99,9 +91,6 @@ importers:
       '@project/eslint-config-custom':
         specifier: workspace:*
         version: link:../eslint-config-custom
-      '@project/tsconfig':
-        specifier: workspace:*
-        version: link:../tsconfig
       '@turbo/gen':
         specifier: ^1.10.12
         version: 1.10.12(@types/node@20.5.2)(typescript@4.9.5)
@@ -6301,6 +6290,7 @@ packages:
   /typescript@4.9.5:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /uglify-js@3.17.4:
