@@ -1,0 +1,17 @@
+{
+  "name": "{{ name }}",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@project/configs": "workspace:*",
+    "@project/eslint-config-custom": "workspace:*",
+    "prettier": "^3.0.2",
+    "typescript": "^4.5.3"
+  }
+}

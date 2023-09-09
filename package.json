@@ -6,9 +6,11 @@
     "lint": "concurrently --kill-others \"pnpm run lint:*\"",
     "lint:turbo": "turbo run lint",
     "lint:syncpack": "syncpack list-mismatches",
-    "format": "turbo run format"
+    "format": "turbo run format",
+    "generate:package": "turbo gen package"
   },
   "devDependencies": {
+    "@turbo/gen": "^1.10.12",
     "concurrently": "^8.2.1",
     "eslint": "^8.47.0",
     "syncpack": "^11.2.1",
